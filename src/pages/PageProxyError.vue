@@ -9,6 +9,7 @@
 </template>
 
 <script setup lang="ts">
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import {computed, reactive, ref} from 'vue'
 import {
   BryntumGrid,
@@ -19,9 +20,10 @@ class ProxyTest {
 
   // having a ref in our class causes:
   // TypeError: 'set' on proxy: trap returned falsish for property 'someRef'
-  someRef = computed(() => {
-    return 'test'
-  })
+  // NOTE: uncomment this ref to see the error
+  // someRef = computed(() => {
+  //   return 'test'
+  // })
 }
 
 const data = ref([

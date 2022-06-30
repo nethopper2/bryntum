@@ -52,14 +52,14 @@ import EssentialLink from 'components/EssentialLink.vue';
 const linksList = [
   {
     title: 'Scroll Bug',
-    caption: '',
-    icon: 'code',
+    caption: 'cache.$el is undefined',
+    icon: 'bug_report',
     link: '/'
   },
   {
     title: 'Proxy Bug',
-    caption: '',
-    icon: 'code',
+    caption: 'TypeError: \'set\' on proxy: trap...',
+    icon: 'pest_control',
     link: '/proxy'
   },
 ];
