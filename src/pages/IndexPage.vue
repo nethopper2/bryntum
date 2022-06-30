@@ -14,7 +14,7 @@ import {
   BryntumGrid,
 } from '@bryntum/grid-vue-3';
 
-import { useGridConfig } from '../components/AppConfig'
+import { useGridConfig } from 'components/AppConfig'
 
 const gridConfig = reactive(useGridConfig())
 const extraData = {
