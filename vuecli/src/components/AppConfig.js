@@ -64,14 +64,12 @@ const useGridConfig = () => {
               // Required. Name of the component to render.
               // The component must be registered globally in main.js
               // https://vuejs.org/v2/guide/components.html#Dynamic-Components
-              // is: 'BlueButton',
-              is: 'TagsRenderer',
-              tags: ['edge', 'core'],
+              is: 'BlueButton',
+              record,
 
-              // `BlueButton` gets its text from `record`
-              // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-              // record: { ...record, tags: ['edge', 'something'] },
-              // record,
+              // Using our component:
+              // is: 'TagsRenderer',
+              // tags: ['edge', 'core'],
 
               // Button click handler defined above
               // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
