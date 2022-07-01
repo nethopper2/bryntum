@@ -66,9 +66,6 @@ const useGridConfig = () => {
               // https://vuejs.org/v2/guide/components.html#Dynamic-Components
               // is: 'BlueButton',
               is: 'TagsRenderer',
-              // tag: 'edge',
-              // label: 'Hello World',
-              // color: 'primary',
               tags: ['edge', 'core'],
 
               // `BlueButton` gets its text from `record`

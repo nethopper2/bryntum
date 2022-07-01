@@ -1,5 +1,7 @@
 <template>
-  <q-badge v-for="i in props.tags" :key="i">{{ i }}</q-badge>
+  <span>
+    <span v-for="i in props.tags" :key="i">{{ i }}</span>
+  </span>
 </template>
 
 <script setup lang="ts">
