@@ -73,7 +73,7 @@ const gridConfig = reactive<Partial<GridConfig>>({
       text: 'tags',
       field: 'tags',
       // hideable: true,
-      cellCls: 'flex-wrap',
+      cellCls: 'flex-wrap', // tailwindcss class
       autoHeight: true,
       // fitMode: 'exact',
       // autoHeight: true, maxWidth: 100,
