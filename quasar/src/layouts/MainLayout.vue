@@ -62,6 +62,12 @@ const linksList = [
     icon: 'pest_control',
     link: '/proxy'
   },
+  {
+    title: 'Objects',
+    caption: '',
+    icon: 'code',
+    link: '/bryntum'
+  },
 ];
 
 export default defineComponent({

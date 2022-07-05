@@ -7,6 +7,10 @@ const routes: RouteRecordRaw[] = [
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') },
       { path: 'proxy', component: () => import('pages/PageProxyError.vue') },
+      {
+        path: 'bryntum',
+        component: () => import('pages/PageBryntumObjects.vue'),
+      },
     ],
   },
 
